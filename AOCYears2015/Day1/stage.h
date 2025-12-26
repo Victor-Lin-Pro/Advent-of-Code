@@ -16,5 +16,5 @@ private:
 	int character;
 	int stage;
 
-	FILE* file;
+	FILE* file = fopen("day1_input.txt", "r");
 };

@@ -11,6 +11,7 @@ Day1::~Day1()
 	fclose(file);
 }
 
+// Part 1
 void Day1::CountStages()
 {
 	while ((character = fgetc(file)) != EOF)
@@ -26,6 +27,7 @@ void Day1::CountStages()
 	printf("Stage %d", stage);
 }
 
+// Part 2
 void Day1::FirstBasement()
 {
 	while ((character = fgetc(file)) != EOF)
